@@ -1,0 +1,14 @@
+POST http://localhost:8051/users
+Content-Type: application/json
+
+{
+  "id":1002,
+  "username":"李四",
+  "phone":"13900000000"
+}
+
+###
+GET http://localhost:8051/users/1002
+
+###
+GET http://localhost:8051/users/9999
